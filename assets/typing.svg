@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="70" viewBox="0 0 600 70">
+  <style>
+    text {
+      font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  </style>
+  <defs>
+    <linearGradient id="colores" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F0883E" />
+      <stop offset="100%" stop-color="#E8528C" />
+    </linearGradient>
+    <clipPath id="escritura">
+      <rect x="100" y="0" height="70" width="0">
+        <animate attributeName="width" values="0;400;400;0;0" keyTimes="0;0.35;0.8;0.95;1" dur="7s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+  <text x="300" y="48" text-anchor="middle" fill="url(#colores)" clip-path="url(#escritura)">Emmy Lopez Cueva</text>
+</svg>
